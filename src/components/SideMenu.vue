@@ -46,7 +46,7 @@
                     </span>
                 </div>
                 <div class="legend__chart">
-                    <Doughnut ref="chart"/>
+                    <Pie ref="chart"/>
                 </div>
             </div>
             <div
@@ -71,7 +71,7 @@ import LegendItem from "./SideMenu/LegendItem.vue";
 import PersonCard from "./SideMenu/PersonCard.vue";
 import legend from "@/assets/data/legend.json";
 import Draggable from "vuedraggable";
-import { Doughnut } from"vue-chartjs";
+import { Pie } from"vue-chartjs";
 
 export default {
     props: {
@@ -88,7 +88,7 @@ export default {
         LegendItem,
         PersonCard,
         Draggable,
-        Doughnut,
+        Pie,
     },
     data() {
         return {
