@@ -10,7 +10,7 @@
 <script>
 import Map from "./components/Map.vue";
 import SideMenu from "./components/SideMenu.vue";
-
+import 'normalize.css';
 export default {
   name: "App",
   components: {
